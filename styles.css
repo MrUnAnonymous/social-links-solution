@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+}
+
+h3{
+    margin-bottom: 7px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+h6{
+    margin: 0;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+p{
+    margin: 25px 0 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+}
+
+.links {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.links:hover{
+    background-color: hsl(75, 94%, 57%);
+}
